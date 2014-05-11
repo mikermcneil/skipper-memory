@@ -1,4 +1,4 @@
-# [<img title="skipper-memory - Antagonistic adapter for Skipper" src="http://i.imgur.com/P6gptnI.png" width="200px" alt="skipper emblem - face of a ship's captain"/>](https://github.com/balderdashy/skipper-memory) Antagonistic Adapter
+# [<img title="skipper-memory - Development-only filesystem simulation as an  adapter for Skipper" src="http://i.imgur.com/P6gptnI.png" width="200px" alt="skipper emblem - face of a ship's captain"/>](https://github.com/balderdashy/skipper-memory) Memory Adapter (simulated filesystem)
 
 [![Build Status](https://travis-ci.org/balderdashy/skipper-memory.svg?branch=master)](https://travis-ci.org/balderdashy/skipper-memory)
 
