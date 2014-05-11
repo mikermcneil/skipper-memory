@@ -1,0 +1,39 @@
+{
+  "name": "skipper-memory",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Skipper adapter for a dumb (development-only) in-RAM filesystem simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"require('skipper-adapter-tests')({module: require('./')});\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikermcneil/skipper-memory.git"
+  },
+  "keywords": [
+    "skipper",
+    "filesystem",
+    "file",
+    "upload",
+    "upload",
+    "disk",
+    "drive",
+    "sails",
+    "express"
+  ],
+  "author": "Mike McNeil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikermcneil/skipper-memory/issues"
+  },
+  "homepage": "https://github.com/mikermcneil/skipper-memory",
+  "devDependencies": {
+    "skipper-adapter-tests": "~1.1.2",
+    "mocha": "~1.18.2"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "concat-stream": "^1.4.5"
+  }
+}
