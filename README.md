@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/balderdashy/skipper-memory.svg?branch=master)](https://travis-ci.org/balderdashy/skipper-memory)
 
-Skipper adapter for a dumb (development-only) in-RAM filesystem simulation via [Skipper](github.com/balderdashy/skipper).
+Adapter for a dumb (development-only) in-RAM filesystem simulation via [Skipper](github.com/balderdashy/skipper).
 
-
+> By the way, don't use this adapter for real things unless you know what you're doing. You probably want to be using something like disk, S3, Swift (OpenStack), azure, dropbox, box.net, etc for real-world use cases.  This adapter is for testing.  That said, if you want to store binary blobs in memory for some reason, go for it- just realize this adapter is not designed to be efficient or anything like that.
 
 ========================================
 
