@@ -24,9 +24,7 @@ var mockfs = [
 ];
 
 /**
- * skipper-antagonist
- *
- * Fake adapter for receiving streams of file streams. Simulates a slow drain which will always be slower than incoming file uploads.  This provides a worst-case-scenario test case to ensure backpressure mechanisms are functioning properly, helping to protect us against memory overflow issues with streaming multipart file uploads via Skipper.
+ * skipper-memory
  *
  * Uses a mock filesystem to store files in RAM
  * i.e. it's pretend, like fantasy football or barbies or D&D or something.
@@ -40,7 +38,7 @@ var mockfs = [
  * @return {Object}
  */
 
-module.exports = function AnagonisticAdapter (options) {
+module.exports = function MemoryAdapter (options) {
   options = options || {};
 
   var adapter = {
