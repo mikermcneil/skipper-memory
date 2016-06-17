@@ -168,7 +168,7 @@ module.exports = function MemoryAdapter (options) {
       var filePath = path.join(dirPath, filename);
       
       // Tag __newFile with unique `fd` property.
-      _newFile.fd = filePath;
+      __newFile.fd = filePath;
 
       // Garbage-collect the bytes that were already written for this file.
       // (called when a read or write error occurs)
