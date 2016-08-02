@@ -1,6 +1,6 @@
 {
   "name": "skipper-memory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Skipper adapter for a dumb (development-only) in-RAM filesystem simulation",
   "main": "index.js",
   "scripts": {
